@@ -3,7 +3,7 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python3_{6,7,8} )
+PYTHON_COMPAT=( python3_{9,10,11} )
 inherit python-single-r1 cmake git-r3 #distutils-r1
 
 DESCRIPTION="Library for rectifying and simulating photographic lens distortions"
